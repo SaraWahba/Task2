@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing'
-        run: pwd
+      - name: 'Printing Folder'
+        run: ls
 
-      - name: 'Printing'
-        run: echo Sara
+    
