@@ -22,6 +22,6 @@ jobs:
 
 
 
-       - name: "Pushing"
-         run: docker push ${{ secrets.DOCKER_USERNAME }}/image  
+      - name: "Pushing"
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/image  
     
